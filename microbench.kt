@@ -14,7 +14,7 @@ fun main() {
 	// /bench setup
 
 	first = measureNanoTime {
-		for (i in 0..RUNS) {
+		for (i: Long in 0..RUNS) {
 			// 1st run
 
 			a++
@@ -35,7 +35,7 @@ fun main() {
 	// /reset bench setup
 
 	second = measureNanoTime {
-		for (i in 0..RUNS) {
+		for (i: Long in 0..RUNS) {
 			// 2nd run
 
 			a += 1
