@@ -3,15 +3,15 @@ import kotlin.system.measureNanoTime
 // add imports for bench:
 
 
-// set run repetitions:
-val RUNS: Long = 65536
-
 // add variables for bench:
 
 // var a: Long = 0
 
 
 fun main() {
+	// set run repetitions:
+	val RUNS: Long = 65536
+	
 	var first: Long
 	var second: Long
 
